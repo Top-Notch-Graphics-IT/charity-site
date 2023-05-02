@@ -1,9 +1,6 @@
-import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
-import Layout from '@/components/Layout'
+import MidsectionHome from '@/components/MidsectionHome'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,10 +13,10 @@ export default function Home() {
         <link rel="icon" href="/logo.jpeg" />
       </Head>
       <main className='mt-32'>
-        
-        <h1>Hey I am home page</h1>
-        
-      </main>
-    </div>
+    
+<MidsectionHome />
+
+</main>
+</div>
   )
 }
