@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white py-8 pb-0">
+    <footer className="bg-black text-white py-8 pb-0 mt-8">
       <div className="flex flex-wrap justify-between pb-6">
         <div className="w-full md:w-1/3 px-4 flex flex-col items-center">
           <h2 className="mb-4 text-uppercase font-bold">NAVIGATION</h2>
@@ -54,9 +54,9 @@ export default function Footer() {
 </div>
 
       </div>
-      <div className="bg-white py-4 text-center text-uppercase">
+      <div className="bg-gray py-4 text-center text-uppercase">
         <h2 className="text-black font-bold">
-          EXTENDERS <span className="text-red-600">FOUNDATION</span> | COPYRIGHT 2023
+          EXTENDERS <span className="text-red-600">FOUNDATION</span> | COPYRIGHT {new Date().getFullYear()}
         </h2>
       </div>
     </footer>
