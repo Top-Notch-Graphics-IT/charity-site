@@ -4,6 +4,7 @@ import React from "react";
 export default function MidsectionHome() {
   return (
     <div>
+
       <section className="relative h-screen ">
         <img
           src="/assets/bg-image.png"
@@ -11,8 +12,8 @@ export default function MidsectionHome() {
           className="object-cover w-full h-full"
         />
         <div className="absolute inset-0 flex items-center justify-left ml-16">
-          <h2 className="text-white font-bold text-1xl md:text-2xl lg:text-3xl text-left px-6 w-20 mx-2">
-            WELCOME TO THE <span className="text-red-600">EXTENDERS</span>{" "}
+          <h2 className="text-white font-bold text-1xl md:text-2xl lg:text-3xl text-left px-6 w-[200px] mx-2">
+            WELCOME TO THE <span className="text-red-600">EXTENDERS </span>
             FOUNDATION
           </h2>
         </div>
@@ -34,7 +35,7 @@ export default function MidsectionHome() {
           quo debitis suscipit?
         </p>
       </section>
-
+      
       <section className="relative h-screen">
         <img
           src="/assets/bg-image2.png"
