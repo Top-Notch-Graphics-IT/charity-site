@@ -11,9 +11,7 @@ module.exports = {
         gray: "#E8E7E8",
       },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'contact-background': "url('/IMG_7443.jpg')",
       },
     },
   },
@@ -29,5 +27,6 @@ module.exports = {
         },
       })
     },
+    require('@tailwindcss/forms'),
   ],
 }
