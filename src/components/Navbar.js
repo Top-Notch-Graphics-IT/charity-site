@@ -32,9 +32,11 @@ export default function Navbar() {
               <p>EVENTS</p>
             </Link>
 
+            <a href="https://donate.stripe.com/test_14k00O9vcesH1os5kk">
             <button className="bg-red-500 hover:bg-red-300 text-white px-3 py-2 rounded-md">
               DONATE
             </button>
+            </a>
           </div>
         ) : (
           <div className="">
@@ -49,7 +51,7 @@ export default function Navbar() {
 
         {/* mobile pop up */}
         {!isAboveSmallScreens && isMenuToggled && (
-          <div className="fixed right-0 top-0 h-[50%] bg-gray w-[250px]">
+          <div className="fixed right-0 top-0 h-[60%] bg-gray w-[250px]">
             {/* icon */}
             <div className="flex justify-end p-8 ">
               <button
@@ -67,17 +69,23 @@ export default function Navbar() {
                 <p>ABOUT US</p>
               </Link>
 
-              <Link href="/about">
+              <Link href="/get-involved">
                 <p>GET INVOLVED</p>
               </Link>
 
-              <Link href="/about">
+              <Link href="/contact-us">
                 <p>CONTACT US</p>
               </Link>
 
-              <Link href="/about">
+              <Link href="/events">
                 <p>EVENTS</p>
               </Link>
+
+              <a href="https://donate.stripe.com/test_14k00O9vcesH1os5kk">
+            <button className="bg-red-500 hover:bg-red-300 text-white px-3 py-2 rounded-md">
+              DONATE
+            </button>
+            </a>
             </div>
           </div>
         )}
