@@ -17,5 +17,17 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addComponents, theme }) {
+      addComponents({
+        '.bg-custom': {
+          backgroundImage: `url('/childmom.png')`,
+          backgroundPosition: 'center',
+          backgroundSize: 'auto',
+          height:'70vh',
+          
+        },
+      })
+    },
+  ],
 }
