@@ -28,11 +28,10 @@ export default function Involved() {
         <Image src={section.image} alt={section.imageAlt} width={500} height={200} />
         <div className="md:pl-8 md:pr-24">
             <h2 className="text-3xl font-bold">{section.title}</h2>
-            <h2 className="text-lg font-semibold mt-2">{section.subtitle}</h2>
             <p className="text-md leading-5 mt-4 w-5/6">{section.description}
             </p>
             <button className="bg-red-400 px-4 py-2 mt-4 mb-4 md:mb-0 rounded-sm hover:bg-red-500">
-              Read More
+              {section.buttonText}
             </button>
         </div>
     </div>
