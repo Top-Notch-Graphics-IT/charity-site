@@ -4,7 +4,6 @@ import React from "react";
 export default function MidsectionHome() {
   return (
     <div>
-
       <section className="relative h-screen ">
         <img
           src="/assets/bg-image.png"
@@ -20,22 +19,16 @@ export default function MidsectionHome() {
       </section>
       <section className="section-two px-4 py-6 md:px-8 lg:py-12">
         <p className="text-sm md:text-base max-w-screen-md mx-auto">
-          Lorem ipsum dolor sit amet. Ea enim magni in dolore necessitatibus et
-          deleniti impedit non quasi sunt est eveniet quasi. Sit quia voluptates
-          eos voluptatum quia id voluptas beatae id maiores veniam rem natus
-          placeat et exercitationem assumenda ut reiciendis consequatur. Ut
-          placeat corporis qui temporibus voluptatem qui corrupti sint ex veniam
-          excepturi. Qui minus dolor a dicta necessitatibus et aperiam molestiae
-          eum maxime molestiae et sapiente voluptatem qui deleniti explicabo.
-          Qui fuga doloribus At quae quia et enim quibusdam eum nobis delectus
-          et dolorum quia. Et veniam quaerat sit asperiores internos At eius
-          porro ut explicabo architecto aut recusandae impedit aut quos quia qui
-          cupiditate dignissimos. Et atque rerum est nobis recusandae eos saepe
-          voluptatibus aut sequi debitis eos velit delectus et molestiae nihil
-          quo debitis suscipit?
+          Extenders Foundation is a Community Based Organization (CBO) whose
+          mission is to improve the living conditions of orphans and the less
+          privileged in the community. Our mission is to empower these groups of
+          people through assistance, education and advocacy. Extenders
+          Foundation has been in operation since 2014, helping the vulnerable in
+          the community. Our committed team of volunteers and well-wishers put
+          in a lot of effort to fulfill the group’s mission.
         </p>
       </section>
-      
+
       <section className="relative h-screen">
         <img
           src="/assets/bg-image2.png"
@@ -48,11 +41,11 @@ export default function MidsectionHome() {
               SUPPORT A CHILD'S LIFE <span className="text-red-600">TODAY</span>
             </h2>
             <p className="text-white px-6 my-6 mx-3">
-              Est recusandae magni ut ipsa officia 33 amet eveniet aut optio
-              nulla in maxime reprehenderit ut atque dolore. At illum sint sit
-              enim minima sed eligendi aliquid. Rem reprehenderit magnam non
+              Thousands of children in Kenya go to sleep without a single meal.
+              By supporting these children, we can give them a better chance at
+              a brighter future and break the cycle of poverty and hunger.
             </p>
-            <button className="bg-red-500 hover:bg-red-300 text-white px-3 py-2 rounded-md w-20 mx-9 my-6">
+            <button className="bg-red-500 hover:bg-red-300 text-white px-3 py-2 rounded-md w-24 mx-9 my-6">
               DONATE
             </button>
           </div>
@@ -66,13 +59,22 @@ export default function MidsectionHome() {
 
             <h2 className="text-lg font-semibold mt-2">OUR IMPACT</h2>
             <p className="text-md leading-5 mt-4 w-5/6">
-              Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Lorem
-              Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Lorem Ipsum Loren IPsum
-              Loren Ipsum Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum
+              Since our founding in 2014, we have visited over 20 children&#39;s
+              homes and provided access to basic needs such as food, clothing,
+              shelter and education. Our organization has been working hard to
+              promote awareness in the community regarding social issues,
+              encourage talent and reduce poverty and hunger. Ipsum
             </p>
             <p className="text-md mt-3 leading-5 w-5/6">
-              Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Lorem
-              Ipsum Loren IPsum Loren Ipsum
+              At Extenders Foundation, we believe that everyone deserves to live
+              a healthy and fulfilling life. We strive to create a welcoming and
+              inclusive environment where everyone feels valued and supported.
+            </p>
+            <p className="text-md mt-3 leading-5 w-5/6">
+              In all our endeavors, we are devoted to openness and
+              accountability. We value community input and regularly assess our
+              programs to make sure they are fulfilling the needs of the people
+              we serve.
             </p>
 
             <button className="bg-red-400 px-4 py-2 mt-4 mb-4 md:mb-0 rounded-sm hover:bg-red-500">
@@ -83,7 +85,7 @@ export default function MidsectionHome() {
             src="/img1.jpg"
             width={500}
             height={200}
-            className="h-[450px] basis-1/2 rounded-md"
+            className="h-[500px] md:mt-4 basis-1/2 rounded-md"
           />
         </div>
 
