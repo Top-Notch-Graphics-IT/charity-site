@@ -10,27 +10,31 @@ export default function About() {
     <div className="mt-20 bg-gray">
       <div className="bg-custom flex flex-col items-center justify-center md:items-end md:justify-center ">
         <div className="md:mr-8  md:text-4xl text-3xl flex flex-col font-bold text-white items-center">
-          <h1 className=" font-bold text-white">ABOUT THE {" "}</h1>
+          <h1 className=" font-bold text-white">ABOUT THE </h1>
 
-          <h1 className="md:ml-0 ml-20"><span className="text-red-600">EXTENDERS </span> FOUNDATION
+          <h1 className="md:ml-0 ml-20">
+            <span className="text-red-600">EXTENDERS </span> FOUNDATION
           </h1>
         </div>
       </div>
       <section className="px-4 py-6 md:px-8 lg:py-12">
         <p className="text-sm md:text-base max-w-screen-md mx-auto">
-          Lorem ipsum dolor sit amet. Ea enim magni in dolore necessitatibus et
-          deleniti impedit non quasi sunt est eveniet quasi. Sit quia voluptates
-          eos voluptatum quia id voluptas beatae id maiores veniam rem natus
-          placeat et exercitationem assumenda ut reiciendis consequatur. Ut
-          placeat corporis qui temporibus voluptatem qui corrupti sint ex veniam
-          excepturi. Qui minus dolor a dicta necessitatibus et aperiam molestiae
-          eum maxime molestiae et sapiente voluptatem qui deleniti explicabo.
-          Qui fuga doloribus At quae quia et enim quibusdam eum nobis delectus
-          et dolorum quia. Et veniam quaerat sit asperiores internos At eius
-          porro ut explicabo architecto aut recusandae impedit aut quos quia qui
-          cupiditate dignissimos. Et atque rerum est nobis recusandae eos saepe
-          voluptatibus aut sequi debitis eos velit delectus et molestiae nihil
-          quo debitis suscipit?
+          Extenders Foundation is a Community Based Organization (CBO) whose
+          goal is to improve the living conditions of orphans and the less
+          privileged in the community. Our mission is to empower these groups of
+          people through assistance, education and advocacy. Extenders
+          Foundation has been in operation since 2014, helping the vulnerable in
+          the community. Our committed team of volunteers put in a lot of effort
+          to fulfill the group’s mission. Our programs and services are designed
+          to meet the diverse needs of our community. We organize a variety of
+          programs which are tailored to address the unique challenges faced by
+          the underprivileged in the community. At Extenders Foundation, we
+          believe that everyone deserves to live a healthy and fulfilling life.
+          We strive to create a welcoming and inclusive environment where
+          everyone feels valued and supported. In all our endeavors, we are
+          devoted to openness and accountability. We value community input and
+          regularly assess our programs to make sure they are fulfilling the
+          needs of the people we serve.
         </p>
       </section>
       <div className="mt-4 p-2 box-border">
@@ -47,9 +51,8 @@ export default function About() {
           <h1 className="font-bold text-2xl  mt-8">OUR MISSION</h1>
           <div className="h-1 w-16 md:ml-30 mb-[10px] bg-red-600"></div>
           <p className="text-md leading-5 w-4/5 mt-8 md:mt-20 text-center">
-            Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Lorem
-            Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Lorem Ipsum Loren IPsum
-            Loren Ipsum Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum
+            To provide love, care and support to orphans, and advocate for their
+            rights and dignity.
           </p>
         </div>
         <Image
@@ -73,9 +76,8 @@ export default function About() {
             <div className="h-1 w-16 md:ml-30 mb-[10px] bg-red-600"></div>
 
             <p className="text-md text-center leading-5 md:w-2/3 mt-8 md:mt-20">
-              Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Lorem
-              Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Lorem Ipsum Loren IPsum
-              Loren Ipsum Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum
+              -To ensure that every orphan gets access to basic needs and feels
+              loved and cared for.
             </p>
           </div>
         </div>
@@ -88,13 +90,11 @@ export default function About() {
           <div className="h-1 w-16  mb-[10px] bg-red-600"></div>
         </div>
         <div className="md:flex gap-8 md:mt-16 max-w-6xl mx-auto">
-          {values.map((value)=>(
+          {values.map((value) => (
             <div key={value.id}>
-              <CoreValue value={value}/>
+              <CoreValue value={value} />
             </div>
-          )
-
-          )}
+          ))}
         </div>
       </div>
 
