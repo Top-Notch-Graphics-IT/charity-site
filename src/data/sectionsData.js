@@ -5,7 +5,7 @@ export const sectionsData = [
       subtitle: "OUR IMPACT",
       description:
         "Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Loren IPsum Loren Ipsum",
-      image: "/img3.png",
+      image: "/assets/img3.png",
       imageAlt: "Image 1",
       buttonText: "FUNDRAISE WITH US"
     },
@@ -15,7 +15,7 @@ export const sectionsData = [
       subtitle: "OUR SERVICES",
       description:
         "Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Loren IPsum Loren Ipsum",
-      image: "/img3.png",
+      image: "/assets/img3.png",
       imageAlt: "Image 2",
       buttonText: "VOLUNTEER WITH US"
 
@@ -26,7 +26,7 @@ export const sectionsData = [
       subtitle: "OUR VISION",
       description:
         "Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Loren IPsum Loren Ipsum",
-      image: "/img3.png",
+      image: "/assets/img3.png",
       imageAlt: "Image 3",
       buttonText: "VISIT WITH US"
 
@@ -37,10 +37,8 @@ export const sectionsData = [
       subtitle: "EXTENDERS FOUNDATION",
       description:
         "Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Lorem Ipsum Loren IPsum Loren Ipsum Lorem Ipsum Loren IPsum Loren Ipsum",
-      image: "/img3.png",
+      image: "/assets/img3.png",
       imageAlt: "Image 4",
       buttonText: "PARTNER WITH US"
-
     },
   ];
-  

@@ -13,22 +13,22 @@ export default function BoardMembers({ member }) {
         <ul className="flex p-4 gap-4 ">
           <li>
             <a href="#">
-              <img src="/gmail.png" alt="Email Icon" className=" h-8 w-8"/>
+              <img src="/icons/gmail.png" alt="Email Icon" className=" h-8 w-8"/>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="/facebook-logo.png" alt="Facebook Icon" className="h-8 w-8"/>
+              <img src="/icons/facebook-logo.png" alt="Facebook Icon" className="h-8 w-8"/>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="/instagram.png" alt="Instagram Icon" className="h-8 w-8" />
+              <img src="/icons/instagram.png" alt="Instagram Icon" className="h-8 w-8" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="/twitter.png" alt="Twitter Icon" className="h-8 w-8" />
+              <img src="/icons/twitter.png" alt="Twitter Icon" className="h-8 w-8" />
             </a>
           </li>
         </ul>

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import SupportSection from "./Support";
 
 export default function MidsectionHome() {
   return (
@@ -28,30 +29,7 @@ export default function MidsectionHome() {
           in a lot of effort to fulfill the group’s mission.
         </p>
       </section>
-
-      <section className="relative h-screen">
-        <img
-          src="/assets/bg-image2.png"
-          alt=""
-          className="object-cover w-full h-full"
-        />
-        <div className="absolute inset-0 flex items-center justify-left ml-16">
-          <div className="w-1/3 flex flex-col">
-            <h2 className="text-white font-bold text-1xl md:text-2xl lg:text-3xl text-left px-6 mx-2">
-              SUPPORT A CHILD'S LIFE <span className="text-red-600">TODAY</span>
-            </h2>
-            <p className="text-white px-6 my-6 mx-3">
-              Thousands of children in Kenya go to sleep without a single meal.
-              By supporting these children, we can give them a better chance at
-              a brighter future and break the cycle of poverty and hunger.
-            </p>
-            <button className="bg-red-500 hover:bg-red-300 text-white px-3 py-2 rounded-md w-24 mx-9 my-6">
-              DONATE
-            </button>
-          </div>
-        </div>
-      </section>
-
+      <SupportSection />
       <section className=" mt-4">
         <div className="md:flex gap-8 max-w-6xl mx-auto p-3">
           <div className="md:mt-16 md:basis-1/2 flex flex-col justify-center items-center md:items-start">
@@ -89,14 +67,7 @@ export default function MidsectionHome() {
           />
         </div>
 
-        <div className="mt-6 p-2 box-border">
-          <Image
-            src="/img2.jpg"
-            width={500}
-            height={300}
-            className="w-full h-[350px] max-w-full object-cover rounded-sm"
-          />
-        </div>
+
       </section>
     </div>
   );

@@ -11,7 +11,7 @@ export default function Navbar() {
     <nav className={" w-full fixed top-0 py-4 bg-gray z-10"}>
       <div className="flex items-center justify-between mx-auto w-[90%]">
         <Link href="/">
-          <img src="/logo.png" alt="logo" className="h-12" />
+          <img src="/icons/logo.png" alt="logo" className="h-12" />
         </Link>
 
         {isAboveSmallScreens ? (
