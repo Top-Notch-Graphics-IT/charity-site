@@ -1,3 +1,4 @@
+import Contactus from "@/pages/contact-us"
 import Footer from "./Footer"
 import Navbar from "./Navbar"
 
@@ -7,7 +8,8 @@ const Layout = ({ children }) => {
         <Navbar />
         <div className="bg-gray">
         <main >{children}</main>
-        <Footer/>
+        <Contactus  />
+        <Footer />
         </div>
         
       </>

@@ -1,3 +1,4 @@
+import Socials from "@/components/Socials";
 import React from "react";
 
 export default function Contactus() {
@@ -12,7 +13,7 @@ export default function Contactus() {
 
           <div className="md:flex justify-around text-white mt-12">
             <div className="flex flex-col items-center">
-              <img src="/location22.png" alt="address" class="h-12" />
+              <img src="/icons/location22.png" alt="address" class="h-12" />
               <h3 className="mt-4 font-bold text-lg">ADDRESS</h3>
               <h4 className="mt-3 text-md">CBD OFFICE</h4>
               <p>3rd floor, highrise building</p>
@@ -23,7 +24,7 @@ export default function Contactus() {
               <p>Mama Ngina Street</p>
             </div>
             <div className="hidden md:flex flex-col items-center">
-              <img src="ringing.png" alt="location" class="h-12" />
+              <img src="/icons/ringing.png" alt="location" class="h-12" />
               <h3 className="mt-4 font-bold text-lg">PHONE</h3>
               <h4 className="mt-3 text-md">CBD OFFICE</h4>
               <p>+254700 000 000</p>
@@ -34,27 +35,21 @@ export default function Contactus() {
               <p>+254700 000 000</p>
             </div>
             <div className="hidden md:flex flex-col items-center">
-              <img src="email1.png" alt="mail" class="h-12" />
+              <img src="/icons/email1.png" alt="mail" class="h-12" />
               <h3 className="mt-4 font-bold text-lg">EMAIL</h3>
               <h4 className="mt-3 text-md">ENQUIRIES</h4>
               <p>enquiry@charity.com</p>
               <h4 className="mt-4 font-semibold">EMPLOYMENT OPPORTUNITY</h4>
               <p className="mt-4">enquiry@charity.com</p>
+              <Socials />
             </div>
           </div>
         </div>
       </div>
 
       <section className="lg:flex justify-around md:mt-8 max-w-6xl mx-auto p-2">
-        <div className="basis-1/2 flex flex-col items-center  md:items-start">
-          <h1 className="font-bold text-lg">MESSAGE US</h1>
-          <p className="mt-4 ">
-            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-            Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
-          </p>
-        </div>
         <form className="flex flex-col basis-1/2 mt-4 md:mt-0">
+        <h1 className="font-bold text-lg  mx-auto">MESSAGE US</h1>
           <label className="mb-2 text-gray-700">
             NAME
             <input
@@ -79,7 +74,7 @@ export default function Contactus() {
               cols={25}
             />
           </label>
-          <button type="submit" className="bg-red-700 text-white text-sm uppercase px-2 w-24 rounded-md py-3">Submit</button>
+          <button type="submit" className="bg-red-700 text-white text-sm uppercase px-2 w-24 rounded-md py-3 mx-auto">Submit</button>
         </form>
       </section>
     </div>

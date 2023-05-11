@@ -4,10 +4,12 @@ import { boardMembers, allMembers, values } from "@/data/members";
 import BoardMembers from "@/components/BoardMembers";
 import AllMembers from "@/components/AllMembers";
 import CoreValue from "@/components/CoreValue";
+import CustomHead from "@/components/CustomHead";
 
 export default function About() {
   return (
     <div className="mt-20 bg-gray">
+      <CustomHead />
       <div className="bg-custom flex flex-col items-center justify-center md:items-end md:justify-center ">
         <div className="md:mr-8  md:text-4xl text-3xl flex flex-col font-bold text-white items-center">
           <h1 className=" font-bold text-white">ABOUT THE </h1>
@@ -39,7 +41,7 @@ export default function About() {
       </section>
       <div className="mt-4 p-2 box-border">
         <Image
-          src="/IMG_1617.jpg"
+          src="/assets/bg-image4.png"
           width={500}
           height={300}
           className="w-full h-[450px] max-w-full object-cover rounded-sm"
@@ -56,7 +58,7 @@ export default function About() {
           </p>
         </div>
         <Image
-          src="/IMG_1628.jpg"
+          src="/assets/img5.jpg"
           width={500}
           height={200}
           className="h-[350px] rounded-md mr-10 mt-4 md:mt-0"
@@ -66,13 +68,13 @@ export default function About() {
       <div className="gap-12 mt-8 bg-white p-2">
         <div className="flex flex-col md:flex-row justify-center items-center lg:ml-56">
           <Image
-            src="/IMG_1628.jpg"
+            src="/assets/img5.jpg"
             width={500}
             height={200}
             className="h-[350px] rounded-md  md:mt-4 mb-4"
           />
           <div className="md:ml-12 flex flex-col items-center">
-            <h1 className="font-bold text-2xl  mt:mt-8">OUR VISSION</h1>
+            <h1 className="font-bold text-2xl  mt:mt-8">OUR VISION</h1>
             <div className="h-1 w-16 md:ml-30 mb-[10px] bg-red-600"></div>
 
             <p className="text-md text-center leading-5 md:w-2/3 mt-8 md:mt-20">
@@ -100,7 +102,7 @@ export default function About() {
 
       <div className="mt-8 p-2 box-border">
         <Image
-          src="/IMG_7369.jpg"
+          src="/assets/img7.jpg"
           width={500}
           height={300}
           className="w-full h-[450px] max-w-full object-cover rounded-sm"
