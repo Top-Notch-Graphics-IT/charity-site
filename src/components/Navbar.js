@@ -44,7 +44,7 @@ export default function Navbar() {
               className="rounded-full bg-red-200 p-2 "
               onClick={() => setIsMenuToggled(!isMenuToggled)}
             >
-              <img alt="menu-icon" src="/menu-icon.svg" />
+              <img alt="menu-icon" src="icons/menu-icon.svg" />
             </button>
           </div>
         )}
@@ -58,7 +58,7 @@ export default function Navbar() {
                 onClick={() => setIsMenuToggled(!isMenuToggled)}
                 className="rounded-full bg-red-200 p-2"
               >
-                <img src="/close-icon.svg" alt="close-icon" />
+                <img src="/icons/close-icon.svg" alt="close-icon" />
               </button>
             </div>
 
