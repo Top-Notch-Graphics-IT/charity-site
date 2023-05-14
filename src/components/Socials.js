@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Socials() {
   return (
-    <div className="bg-black text-white py-8 pb-0 mt-8">
+    <div className="bg-black text-white py-8 pb-0 mt-6">
           <ul className="flex gap-9">
         <li>
         <a href="#" className="hover:underline">

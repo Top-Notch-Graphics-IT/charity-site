@@ -26,7 +26,7 @@ export default function Involved() {
       } flex items-center py-8 justify-center`}
     >
         <Image src={section.image} alt={section.imageAlt} width={500} height={200} />
-        <div className="md:pl-8 md:pr-24">
+        <div className="md:pl-8 md:pr-24 ml-4 md:ml-0">
             <h2 className="text-3xl font-bold">{section.title}</h2>
             <p className="text-md leading-5 mt-4 w-5/6">{section.description}
             </p>

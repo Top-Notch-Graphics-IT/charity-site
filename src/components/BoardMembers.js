@@ -1,5 +1,8 @@
 import React from "react";
-
+import {  TiSocialFacebook } from 'react-icons/ti'
+import { MdOutlineEmail } from 'react-icons/md';
+import {  AiOutlineInstagram } from 'react-icons/ai';
+import { AiOutlineTwitter } from 'react-icons/ai';
 export default function BoardMembers({ member }) {
   return (
     <div className="bg-white m-3 p-2 flex flex-col lg:flex-row items-center justify-center gap-8 rounded-sm">
@@ -13,22 +16,22 @@ export default function BoardMembers({ member }) {
         <ul className="flex p-4 gap-4 ">
           <li>
             <a href="#">
-              <img src="/icons/gmail.png" alt="Email Icon" className=" h-8 w-8"/>
+             <MdOutlineEmail className="h-5 w-5 text-red-400"/>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="/icons/facebook-logo.png" alt="Facebook Icon" className="h-8 w-8"/>
+            <TiSocialFacebook className="h-5 w-5 text-red-400"/>          
+             </a>
+          </li>
+          <li>
+            <a href="#">
+              <AiOutlineInstagram className="h-5 w-5 text-red-400"/>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="/icons/instagram.png" alt="Instagram Icon" className="h-8 w-8" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="/icons/twitter.png" alt="Twitter Icon" className="h-8 w-8" />
+              <AiOutlineTwitter className="h-5 w-5 text-red-400"/>
             </a>
           </li>
         </ul>

@@ -48,7 +48,7 @@ export default function About() {
         />
       </div>
 
-      <div className="max-w-4xl mx-auto md:flex mt-4">
+      <div className="max-w-4xl mx-auto md:flex justify-center items-center  mt-4">
         <div className="flex flex-col items-center ">
           <h1 className="font-bold text-2xl  mt-8">OUR MISSION</h1>
           <div className="h-1 w-16 md:ml-30 mb-[10px] bg-red-600"></div>
@@ -61,24 +61,24 @@ export default function About() {
           src="/assets/img5.jpg"
           width={500}
           height={200}
-          className="h-[350px] rounded-md mr-10 mt-4 md:mt-0"
+          className="h-[350px] w-[350px] rounded-md mr-10 ml-24 md:ml-0 mt-4 md:mt-0"
         />
       </div>
 
-      <div className="gap-12 mt-8 bg-white p-2">
+      <div className="mt-8 bg-white p-2">
         <div className="flex flex-col md:flex-row justify-center items-center lg:ml-56">
           <Image
             src="/assets/img5.jpg"
             width={500}
-            height={200}
-            className="h-[350px] rounded-md  md:mt-4 mb-4"
+            height={350}
+            className="h-[350px] w-[350px] rounded-md  md:mt-4 mb-4 "
           />
-          <div className="md:ml-12 flex flex-col items-center">
+          <div className="flex flex-col items-center">
             <h1 className="font-bold text-2xl  mt:mt-8">OUR VISION</h1>
             <div className="h-1 w-16 md:ml-30 mb-[10px] bg-red-600"></div>
 
-            <p className="text-md text-center leading-5 md:w-2/3 mt-8 md:mt-20">
-              -To ensure that every orphan gets access to basic needs and feels
+            <p className="text-md text-center leading-5 w-4/5 md:w-2/3 mt-8 md:mt-20">
+              To ensure that every orphan gets access to basic needs and feels
               loved and cared for.
             </p>
           </div>

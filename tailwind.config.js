@@ -19,7 +19,7 @@ module.exports = {
     function ({ addComponents, theme }) {
       addComponents({
         '.bg-custom': {
-          backgroundImage: `url('/childmom.png')`,
+          backgroundImage: `url('/assets/childmom.png')`,
           backgroundPosition: 'center',
           backgroundSize: 'auto',
           height:'70vh',
